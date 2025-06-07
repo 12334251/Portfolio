@@ -61,13 +61,25 @@ const Hero = () => {
             Ranchi.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-row gap-6">
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a
+              href="/Mukesh_Kumar_Gupta_CV.pdf"
+              download="Mukesh_Kumar_Gupta_CV.pdf"
+            >
+              <MagicButton
+                title="Download resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
